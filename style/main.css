@@ -1,12 +1,12 @@
 /* style untuk selectror - body */ 
 body {
-    background-color:beige;
+    background-color:#BFD8D2;
     margin: 0px;
 }
 
 /* style untuk heading - begin */
 h1{
-   color: rgb(170, 19, 94); 
+   color: #874C62;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-decoration: underline;
    text-align: center;
@@ -25,7 +25,7 @@ a:hover {
     color: aquamarine;
 }
 a:visited  {
-    color: royalblue;
+    color: white;
 }
 /*style untuk link - end */
 
@@ -42,7 +42,7 @@ a:visited  {
 
 /*menu header- begin */
 .menu-header {
-    background-color: palevioletred;
+    background-color:#C98474;
     text-align: center;
     border-radius: 8px;
     box-shadow:
@@ -57,20 +57,20 @@ a:visited  {
 .menu-header a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    color: white;
+    color:white;
     text-decoration:none;
     padding: 10px 20px;
     letter-spacing: 1px;
 }
 .menu-header a:hover{
-    color: yellow;
+    color: #874C62;
 }
 
 .logo{
     text-align: center;
 }
 .jumbotron{
-    background-color:pink;
+    background-color:#FEDCD2;
     border: solid 1px whitesmoke;
     border-radius: 8px; 
     height: 300px;
@@ -87,8 +87,8 @@ a:visited  {
 }
 .footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:whitesmoke;
-    background-color:rgb(189, 157, 117);
+    color:#DF744A;
+    background-color:none;
     padding: 10px 0px;
     font-size: 11px;
     text-align: center;
@@ -99,7 +99,8 @@ a:visited  {
 
 /*card home - begin*/
 .cardhome{
-    background-color: rgb(184, 153, 113);
+    background-color: #fcf9ea;
+    color: black;
     width: 30%;
     height: 250px;
     border-radius: 0px 0px 20px 20px;
@@ -107,7 +108,7 @@ a:visited  {
     display: inline-block;
 }
 .cardhead{
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #DF744A;
     padding: 10px 0px;
     text-align: center;
 }
@@ -156,8 +157,8 @@ a:visited  {
 }
 .news-item a{
     display: inline-block;
-    background-color: gray;
-    color: aliceblue;
+    background-color: grey;;
+    color: white;
     padding: 10px 10px;
     border-radius: 4px;
     font-size: 10px;
@@ -169,15 +170,29 @@ a:visited  {
 /*news - end */
 
 .section{
-    background-color: rgb(184, 153, 113);
+    background-color:#C98474;
 }
 .section h1{
-    color:white;
+    color:whitesmoke;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     text-decoration: none;
     font-size: 20px;
 }
 .section h4{
     text-align: center;
-    color: aliceblue;
+    color:whitesmoke;
 }
+/*content-begin*/
+.content{
+    margin: 10px,20px;
+}
+content h3{
+    background-color: none;
+    margin: 10px;
+    text-align: justify;
+    font-size: 20cm;
+}
+content p{
+    margin: 10px;
+}
+/*content - end*/
