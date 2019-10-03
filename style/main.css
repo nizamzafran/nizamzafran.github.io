@@ -12,8 +12,13 @@ h1{
    text-align: center;
 }
 h3{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: justify;
+    font-size: 20px;
+    
+}
+p{
+    font-size: 23px;
 }
 /*style untuk heading - END */
 
@@ -125,7 +130,7 @@ a:visited  {
 }
 .cardbody p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 .cardflex{
     display: flex;
@@ -190,7 +195,7 @@ content h3{
     background-color: none;
     margin: 10px;
     text-align: justify;
-    font-size: 20cm;
+    font-size: 30cm;
 }
 content p{
     margin: 10px;
